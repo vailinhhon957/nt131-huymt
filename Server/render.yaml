@@ -1,3 +1,4 @@
+
 services:
   - type: web
     name: my-aspnetcore-app
@@ -9,3 +10,16 @@ services:
         value: Production
       - key: PORT
         value: 10000
+
+services:
+  - type: web
+    name: smoke-server
+    runtime: dotnet
+    buildCommand: dotnet build
+    startCommand: dotnet Server.dll
+    env: 
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+    region: oregon
+    plan: free
+
