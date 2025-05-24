@@ -1,0 +1,51 @@
+﻿@page "/smoke"
+@inject HttpClient Http
+
+<h3>Giám sát Khói</h3>
+
+@if (data != null)
+{
+    <p><b>Mức khói:</b> @data.SmokeLevel ppm</p>
+    <p><b>Trạng thái:</b> @data.Status</p>
+    <p><b>Thời gian:</b> @data.Timestamp.ToLocalTime()</p>
+}
+else if (errorMessage != null)
+{
+    <p style="color:red;"><b>Lỗi:</b> @errorMessage</p>
+}
+else
+{
+    <p>Đang tải dữ liệu...</p>
+}
+
+@code {
+    class SmokeData
+    {
+        public double SmokeLevel { get; set; }
+        public string Status { get; set; }
+        public DateTime Timestamp { get; set; }
+    }
+
+    SmokeData? data;
+    string? errorMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            data = await Http.GetFromJsonAsync<SmokeData>("http://localhost:5073/api/smoke/status");
+        }
+        catch (HttpRequestException ex)
+        {
+            errorMessage = "Không thể kết nối tới máy chủ.";
+        }
+        catch (NotSupportedException)
+        {
+            errorMessage = "Phản hồi không đúng định dạng JSON.";
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Lỗi không xác định: {ex.Message}";
+        }
+    }
+}

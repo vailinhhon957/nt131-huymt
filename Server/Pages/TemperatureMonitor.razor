@@ -1,0 +1,31 @@
+﻿@page "/temperature"
+@inject HttpClient Http
+
+<h3>Giám sát Nhiệt độ</h3>
+
+@if (data != null)
+{
+    <p><b>Nhiệt độ:</b> @data.Temperature °C</p>
+    <p><b>Trạng thái:</b> @data.Status</p>
+    <p><b>Thời gian:</b> @data.Timestamp.ToLocalTime()</p>
+}
+else
+{
+    <p>Đang tải dữ liệu...</p>
+}
+
+@code {
+    class TemperatureData
+    {
+        public double Temperature { get; set; }
+        public string Status { get; set; }
+        public DateTime Timestamp { get; set; }
+    }
+
+    TemperatureData? data;
+
+    protected override async Task OnInitializedAsync()
+    {
+        data = await Http.GetFromJsonAsync<TemperatureData>("http://localhost:5073/api/temperature/status");
+    }
+}

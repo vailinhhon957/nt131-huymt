@@ -1,0 +1,25 @@
+﻿@page "/"
+@using Server.Controllers
+
+<h2>🛡️ Hệ thống Giám sát</h2>
+
+<div class="btn-group mb-3">
+    <button class="btn btn-primary" @onclick="ShowTemperature">Nhiệt độ</button>
+    <button class="btn btn-secondary" @onclick="ShowSmoke">Khói</button>
+</div>
+
+@if (currentTab == "temperature")
+{
+    <TemperatureMonitor />
+}
+else if (currentTab == "smoke")
+{
+    <SmokeMonitor />
+}
+
+@code {
+    private string currentTab = "temperature";
+
+    private void ShowTemperature() => currentTab = "temperature";
+    private void ShowSmoke() => currentTab = "smoke";
+}

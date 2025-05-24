@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "Server.Controllers.TemperatureController",
+    "Method": "ReceiveTemperature",
+    "RelativePath": "api/temperature",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Server.Models.TemperatureLog",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.TemperatureController",
+    "Method": "GetTemperatures",
+    "RelativePath": "api/temperature",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.TemperatureController",
+    "Method": "GetLatestTemperature",
+    "RelativePath": "api/temperature/latest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.TemperatureController",
+    "Method": "GetStatus",
+    "RelativePath": "api/temperature/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

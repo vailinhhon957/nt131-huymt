@@ -1,0 +1,425 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|d:\\hoctap\\2024-2025\\hk2\\htn\\server\\server\\controller\\smokecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\controller\\smokecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|d:\\hoctap\\2024-2025\\hk2\\htn\\server\\server\\controller\\messhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\controller\\messhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\controller\\temperaturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\controller\\temperaturecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|d:\\hoctap\\2024-2025\\hk2\\htn\\server\\server\\controller\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\controller\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|d:\\hoctap\\2024-2025\\hk2\\htn\\server\\server\\controller\\pushnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\controller\\pushnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\pages\\temperaturemonitor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\pages\\temperaturemonitor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\pages\\smokemonitor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\pages\\smokemonitor.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\models\\smokelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\models\\smokelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\models\\temperaturelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\models\\temperaturelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\data\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\data\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\data\\weatherforecastservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\data\\weatherforecastservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\server\\migrations\\20250326074119_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:server\\migrations\\20250326074119_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Migrations\\20250522051209_CreateSmokeLogsTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{019D91AD-F061-457A-91AA-947E41F7FA10}|Server\\Server.csproj|solutionrelative:Server\\Migrations\\20250522051209_CreateSmokeLogsTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Controller\\NotificationController.cs",
+              "RelativeDocumentMoniker": "Server\\Controller\\NotificationController.cs",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Controller\\NotificationController.cs",
+              "RelativeToolTip": "Server\\Controller\\NotificationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T05:55:23.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessHub.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Controller\\MessHub.cs",
+              "RelativeDocumentMoniker": "Server\\Controller\\MessHub.cs",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Controller\\MessHub.cs",
+              "RelativeToolTip": "Server\\Controller\\MessHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T07:24:21.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PushNotifier.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Controller\\PushNotifier.cs",
+              "RelativeDocumentMoniker": "Server\\Controller\\PushNotifier.cs",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Controller\\PushNotifier.cs",
+              "RelativeToolTip": "Server\\Controller\\PushNotifier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T05:53:42.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SmokeController.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Controller\\SmokeController.cs",
+              "RelativeDocumentMoniker": "Server\\Controller\\SmokeController.cs",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Controller\\SmokeController.cs",
+              "RelativeToolTip": "Server\\Controller\\SmokeController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAADwvzQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T04:26:08.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Server\\Pages\\Index.razor",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Pages\\Index.razor",
+              "RelativeToolTip": "Server\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T07:43:13.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Server\\Program.cs",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Program.cs",
+              "RelativeToolTip": "Server\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAqwDoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:34:03.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TemperatureController.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Controller\\TemperatureController.cs",
+              "RelativeDocumentMoniker": "Server\\Controller\\TemperatureController.cs",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Controller\\TemperatureController.cs",
+              "RelativeToolTip": "Server\\Controller\\TemperatureController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:39:29.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TemperatureMonitor.razor",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Pages\\TemperatureMonitor.razor",
+              "RelativeDocumentMoniker": "Server\\Pages\\TemperatureMonitor.razor",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Pages\\TemperatureMonitor.razor",
+              "RelativeToolTip": "Server\\Pages\\TemperatureMonitor.razor",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T04:56:04.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SmokeMonitor.razor",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Pages\\SmokeMonitor.razor",
+              "RelativeDocumentMoniker": "Server\\Pages\\SmokeMonitor.razor",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Pages\\SmokeMonitor.razor",
+              "RelativeToolTip": "Server\\Pages\\SmokeMonitor.razor",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T04:54:00.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Server\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Server\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:22:00.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SmokeLog.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Models\\SmokeLog.cs",
+              "RelativeDocumentMoniker": "Server\\Models\\SmokeLog.cs",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Models\\SmokeLog.cs",
+              "RelativeToolTip": "Server\\Models\\SmokeLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T04:23:14.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TemperatureLog.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Models\\TemperatureLog.cs",
+              "RelativeDocumentMoniker": "Server\\Models\\TemperatureLog.cs",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Models\\TemperatureLog.cs",
+              "RelativeToolTip": "Server\\Models\\TemperatureLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:18:22.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Server\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Server\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T14:07:46.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\_Imports.razor",
+              "RelativeDocumentMoniker": "Server\\_Imports.razor",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\_Imports.razor",
+              "RelativeToolTip": "Server\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T04:46:22.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250522051209_CreateSmokeLogsTable.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Migrations\\20250522051209_CreateSmokeLogsTable.cs",
+              "RelativeDocumentMoniker": "Server\\Migrations\\20250522051209_CreateSmokeLogsTable.cs",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Migrations\\20250522051209_CreateSmokeLogsTable.cs",
+              "RelativeToolTip": "Server\\Migrations\\20250522051209_CreateSmokeLogsTable.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T05:12:09.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\App.razor",
+              "RelativeDocumentMoniker": "Server\\App.razor",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\App.razor",
+              "RelativeToolTip": "Server\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T04:57:40.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WeatherForecastService.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Data\\WeatherForecastService.cs",
+              "RelativeDocumentMoniker": "Server\\Data\\WeatherForecastService.cs",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Data\\WeatherForecastService.cs",
+              "RelativeToolTip": "Server\\Data\\WeatherForecastService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T14:07:34.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "Server\\Pages\\_Host.cshtml",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "Server\\Pages\\_Host.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T13:26:44.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Data\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Server\\Data\\WeatherForecast.cs",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Data\\WeatherForecast.cs",
+              "RelativeToolTip": "Server\\Data\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T14:07:29.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Server\\Pages\\Counter.razor",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Pages\\Counter.razor",
+              "RelativeToolTip": "Server\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T13:26:46.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FetchData.razor",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Pages\\FetchData.razor",
+              "RelativeDocumentMoniker": "Server\\Pages\\FetchData.razor",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Pages\\FetchData.razor",
+              "RelativeToolTip": "Server\\Pages\\FetchData.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T13:26:48.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Server\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T14:17:08.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Server\\appsettings.json",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\appsettings.json",
+              "RelativeToolTip": "Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T14:16:34.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250326074119_InitialCreate.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Migrations\\20250326074119_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Server\\Migrations\\20250326074119_InitialCreate.cs",
+              "ToolTip": "D:\\HOCTAP\\2024-2025\\HK2\\HTN\\Server\\Server\\Migrations\\20250326074119_InitialCreate.cs",
+              "RelativeToolTip": "Server\\Migrations\\20250326074119_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:41:19.239Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
