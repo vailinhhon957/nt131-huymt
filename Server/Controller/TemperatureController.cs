@@ -82,25 +82,17 @@ namespace Server.Controllers
         }
 
         [HttpGet("status")]
-        public IActionResult GetStatus()
+        public ActionResult<List<TemperatureLog>> GetStatus()
         {
-            var latest = _context.TemperatureLogs
-                .OrderByDescending(t => t.Timestamp)
-                .FirstOrDefault();
-
-            if (latest == null)
-                return NotFound("Chưa có dữ liệu");
-
-            string status = latest.Temperature > 60 ? "FIRE ALERT" : "NORMAL";
-
-
-            return Ok(new
+            var data = Enumerable.Range(1, 10).Select(i => new TemperatureLog
             {
-                Status = status,
-                temperature = latest.Temperature,
-                timestamp = latest.Timestamp
-            });
+                Temperature = 35 + i * 0.5,
+                Status = i % 2 == 0 ? "Bình thường" : "Cảnh báo",
+                Timestamp = DateTime.UtcNow.AddMinutes(-i)
+            }).ToList();
+
+            return data;
         }
-        
+
     }
 }

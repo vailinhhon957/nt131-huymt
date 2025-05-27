@@ -1,25 +1,34 @@
 ﻿@page "/"
-@using Server.Controllers
 
-<h2>🛡️ Hệ thống Giám sát</h2>
+<style>
+    body {
+        background-color: #b3e5fc; /* Màu xanh nước biển nhạt */
+        margin: 0;
+    }
 
-<div class="btn-group mb-3">
-    <button class="btn btn-primary" @onclick="ShowTemperature">Nhiệt độ</button>
-    <button class="btn btn-secondary" @onclick="ShowSmoke">Khói</button>
+    .center-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .main-title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #003366;
+    }
+
+        .main-title i {
+            margin-right: 10px;
+        }
+</style>
+
+<div class="center-content">
+    <div class="main-title">
+        <i class="bi bi-shield-fill-check"></i> <!-- Bootstrap icon nếu có -->
+        Hệ thống Giám sát HHT
+    </div>
 </div>
-
-@if (currentTab == "temperature")
-{
-    <TemperatureMonitor />
-}
-else if (currentTab == "smoke")
-{
-    <SmokeMonitor />
-}
-
-@code {
-    private string currentTab = "temperature";
-
-    private void ShowTemperature() => currentTab = "temperature";
-    private void ShowSmoke() => currentTab = "smoke";
-}

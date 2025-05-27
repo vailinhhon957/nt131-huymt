@@ -117,54 +117,16 @@ namespace Server.Controllers
         }
 
         [HttpGet("status")]
-        public async Task<IActionResult> GetSmokeStatus()
+        public ActionResult<List<SmokeLog>> GetSmokeStatus()
         {
-            try
+            var data = Enumerable.Range(1, 10).Select(i => new SmokeLog
             {
-                var latest = _context.SmokeLogs
-                    .OrderByDescending(s => s.Timestamp)
-                    .FirstOrDefault();
+                SmokeLevel = 20 + i * 3.5,
+                Status = i % 2 == 0 ? "Bình thường" : "Cảnh báo",
+                Timestamp = DateTime.UtcNow.AddMinutes(-i)
+            }).ToList();
 
-                if (latest == null)
-                {
-                    return Ok(new
-                    {
-                        status = "NO DATA",
-                        smokeLevel = 0,
-                        timestamp = DateTime.Now
-                    });
-                }
-
-                string status = latest.SmokeLevel > 150 ? "FIRE ALERT" : "NORMAL";
-
-                if (latest.SmokeLevel > 150)
-                {
-                    await _hubContext.Clients.All.SendAsync("ReceiveAlert", new
-                    {
-                        Smoke = true,
-                        SmokeLevel = latest.SmokeLevel,
-                        Message = "Phát hiện khói! Vui lòng kiểm tra ngay!"
-                    });
-                    Console.WriteLine("Đã gửi cảnh báo khói qua SignalR");
-                }
-
-                return Ok(new
-                {
-                    status,
-                    smokeLevel = latest.SmokeLevel,
-                    timestamp = latest.Timestamp
-                });
-            }
-            catch (Exception ex)
-            {
-                return Ok(new
-                {
-                    status = "ERROR",
-                    smokeLevel = 0,
-                    timestamp = DateTime.Now,
-                    message = ex.Message
-                });
-            }
+            return data;
         }
     }
 }

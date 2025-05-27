@@ -3,11 +3,29 @@
 
 <h3>Giám sát Nhiệt độ</h3>
 
-@if (data != null)
+@if (dataList != null)
 {
-    <p><b>Nhiệt độ:</b> @data.Temperature °C</p>
-    <p><b>Trạng thái:</b> @data.Status</p>
-    <p><b>Thời gian:</b> @data.Timestamp.ToLocalTime()</p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nhiệt độ (°C)</th>
+                <th>Trạng thái</th>
+                <th>Thời gian</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var (item, index) in dataList.Select((item, index) => (item, index + 1)))
+            {
+                <tr>
+                    <td>@index</td>
+                    <td>@item.Temperature</td>
+                    <td>@item.Status</td>
+                    <td>@item.Timestamp.ToLocalTime().ToString("dd/MM/yyyy HH:mm:ss")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }
 else
 {
@@ -22,10 +40,16 @@ else
         public DateTime Timestamp { get; set; }
     }
 
-    TemperatureData? data;
+    List<TemperatureData>? dataList;
 
     protected override async Task OnInitializedAsync()
     {
-        data = await Http.GetFromJsonAsync<TemperatureData>("http://localhost:5073/api/temperature/status");
+        var apiUrl = "http://localhost:5073/api/temperature/status";
+        var allData = await Http.GetFromJsonAsync<List<TemperatureData>>(apiUrl); ;
+
+        dataList = allData?
+            .OrderByDescending(d => d.Timestamp) // Dữ liệu mới nhất lên đầu
+            .Take(10)                            // Chỉ lấy 10 dòng
+            .ToList();
     }
 }
