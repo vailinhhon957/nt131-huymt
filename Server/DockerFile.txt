@@ -19,6 +19,9 @@ WORKDIR /app
 # Copy published output
 COPY --from=build /app/out ./
 
+# Copy file SQLite vào thư mục làm việc (root /app)
+COPY temperature.db ./
+
 # Expose port (Render sẽ sử dụng biến môi trường PORT)
 ENV ASPNETCORE_URLS=http://+:5073
 EXPOSE 5073
