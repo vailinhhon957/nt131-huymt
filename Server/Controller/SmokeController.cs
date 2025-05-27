@@ -117,16 +117,14 @@ namespace Server.Controllers
         }
 
         [HttpGet("status")]
-        public ActionResult<List<SmokeLog>> GetSmokeStatus()
-        {
-            var data = Enumerable.Range(1, 10).Select(i => new SmokeLog
-            {
-                SmokeLevel = 20 + i * 3.5,
-                Status = i % 2 == 0 ? "Bình thường" : "Cảnh báo",
-                Timestamp = DateTime.UtcNow.AddMinutes(-i)
-            }).ToList();
+         public ActionResult<List<SmokeLog>> GetSmokeStatus()
+ {
+     var data = _context.SmokeLogs
+         .OrderByDescending(s => s.Timestamp)
+         .Take(10)
+         .ToList();
 
-            return data;
-        }
+     return data;
+ }
     }
 }
