@@ -1,0 +1,64 @@
+﻿@page "/monitor"
+@inject HttpClient Http
+<PageTitle>Monitor</PageTitle>
+<h3>Hệ thống Giám sát</h3>
+
+@if (isLoading)
+{
+    <p>Đang tải dữ liệu...</p>
+}
+else
+{
+    <div>
+        <h4>Giám sát Nhiệt độ</h4>
+        <p><b>Nhiệt độ:</b> @temperature.Celsius &deg;C</p>
+        <p><b>Trạng thái:</b> @temperature.Status</p>
+        <p><b>Thời gian:</b> @temperature.Timestamp.ToString("dd/MM/yyyy HH:mm:ss")</p>
+
+        <h4>Giám sát Khói</h4>
+        <p><b>Khói:</b> @smoke.SmokeLevel</p>
+        <p><b>Trạng thái:</b> @smoke.Status</p>
+        <p><b>Thời gian:</b> @smoke.Timestamp.ToString("dd/MM/yyyy HH:mm:ss")</p>
+    </div>
+}
+
+@code {
+    private TemperatureData temperature = new();
+    private SmokeData smoke = new();
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        while (true)
+        {
+            try
+            {
+                temperature = await Http.GetFromJsonAsync<TemperatureData>("/api/temperature/latest");
+                smoke = await Http.GetFromJsonAsync<SmokeData>("/api/smoke/latest");
+                isLoading = false;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Lỗi lấy dữ liệu: " + ex.Message);
+            }
+
+            // Đợi 5 giây trước lần tiếp theo
+            await Task.Delay(5000);
+            StateHasChanged();
+        }
+    }
+
+    public class TemperatureData
+    {
+        public int Celsius { get; set; }
+        public string Status { get; set; } = "";
+        public DateTime Timestamp { get; set; }
+    }
+
+    public class SmokeData
+    {
+        public int SmokeLevel { get; set; }
+        public string Status { get; set; } = "";
+        public DateTime Timestamp { get; set; }
+    }
+}

@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\monitor.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
     
     <PackageReference Include="DBContext" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
@@ -17,6 +21,18 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="SQLite" Version="3.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\monitor.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\monitor.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\monitor.razor" />
   </ItemGroup>
 
 </Project>
