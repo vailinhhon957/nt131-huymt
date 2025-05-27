@@ -159,3 +159,4 @@ D:\HOCTAP\2024-2025\HK2\HTN\Server\Server\bin\Debug\net7.0\System.Net.WebSockets
 D:\HOCTAP\2024-2025\HK2\HTN\Server\Server\bin\Debug\net7.0\System.Text.Encodings.Web.dll
 D:\HOCTAP\2024-2025\HK2\HTN\Server\Server\bin\Debug\net7.0\System.Threading.Channels.dll
 D:\HOCTAP\2024-2025\HK2\HTN\Server\Server\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+D:\HOCTAP\2024-2025\HK2\HTN\Server\Server\obj\Debug\net7.0\Server.sourcelink.json
