@@ -1,34 +1,70 @@
-﻿@page "/"
+@page "/"
 
 <style>
     body {
-        background-color: #b3e5fc; /* Màu xanh nước biển nhạt */
         margin: 0;
+        overflow: hidden;
+    }
+
+    .video-bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+        object-fit: cover;
     }
 
     .center-content {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 80vh;
+        height: 100vh;
         text-align: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        z-index: 1;
+        position: relative;
+        text-shadow: 0 0 10px black;
     }
 
     .main-title {
         font-size: 2.5rem;
         font-weight: bold;
-        color: #003366;
+        color: transparent; /* Trong suốt phần chữ */
+        -webkit-text-stroke: 2px white; /* Viền ngoài màu trắng */
+        text-stroke: 2px white;
+        margin-bottom: 1rem;
     }
 
         .main-title i {
             margin-right: 10px;
         }
+
+    .names {
+        color: white;
+        font-size: 1.2rem;
+        line-height: 1.6;
+        text-shadow: 0 0 10px black;
+    }
 </style>
+
+
+<video autoplay muted loop class="video-bg">
+    <source src="back-ground.mp4" type="video/mp4" />
+    Trình duyệt của bạn không hỗ trợ video.
+</video>
+
 
 <div class="center-content">
     <div class="main-title">
-        <i class="bi bi-shield-fill-check"></i> <!-- Bootstrap icon nếu có -->
-        Hệ thống Giám sát HHT
+        <i class="bi bi-shield-fill-check"></i>
+        Hệ thống Giám sát HHT <br/>
+    </div>
+    <div class="names">
+       <br/> Nguyễn Văn Huy<br />
+        Nguyễn Xuân Hiếu<br />
+        Cao Cao Nguyên Trình
     </div>
 </div>
