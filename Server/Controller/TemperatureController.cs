@@ -82,15 +82,12 @@ namespace Server.Controllers
         }
 
         [HttpGet("status")]
-        public ActionResult<List<TemperatureLog>> GetStatus()
+        public ActionResult<List<TemperatureLog>> GetTemperatureStatus()
         {
-            var data = Enumerable.Range(1, 10).Select(i => new TemperatureLog
-            {
-                Temperature = 35 + i * 0.5,
-                Status = i % 2 == 0 ? "Bình thường" : "Cảnh báo",
-                Timestamp = DateTime.UtcNow.AddMinutes(-i)
-            }).ToList();
-
+            var data = _context.TemperatureLogs
+                .OrderByDescending(s => s.Timestamp)
+                .Take(10)
+                .ToList();
             return data;
         }
 
